@@ -1,0 +1,15 @@
+{
+  "tables":{
+    "users" : {
+      "id":{"type": "integer", "pk":true},
+      "name":{"type":"varchar"},
+      "email":{"type":"varchar", "def":""},
+      "password":{"type":"varchar"},
+      "role":{"type":"integer", "def":0},
+      "source":{"type":"integer", "def":0},
+      "updated_at":{"type":"integer", "null": true},
+      "created_at":{"type":"integer", "null": true},
+      "remember_token":{"type":"varchar", "null": true}
+    }
+  }
+}
